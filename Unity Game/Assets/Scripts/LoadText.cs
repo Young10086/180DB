@@ -19,6 +19,7 @@ public class LoadText : MonoBehaviour
     {
         ReadText01();
         ReadText02();
+        ReadText03();
     }
 
     private void ReadText01()
@@ -51,6 +52,7 @@ public class LoadText : MonoBehaviour
         {
             timer = 0;
             ReadText01();
+            ReadText02();
             ReadText02();
         }
     }
